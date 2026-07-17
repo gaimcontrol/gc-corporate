@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GaimControl · AI agentic infrastructure for behavioural underwriting</title>
+  <meta name="description" content="GaimControl is the AI agentic layer that verifies recovery and operationalises the customer journey back to eligibility. Walkaway, Anna, and Holdwell, one vertically integrated stack." />
+  <meta property="og:title" content="GaimControl · AI agentic infrastructure for behavioural underwriting" />
+  <meta property="og:description" content="AI agents that turn recovery into an underwritable signal." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gaimcontrol.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
+</head>
+<body>
+
+  <!-- ── Nav ────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="container nav__row">
+      <a class="nav__brand" href="/">
+        <span class="nav__mark" aria-hidden="true">
+          <img src="assets/logo-mark.svg" alt="" />
+        </span>
+        <span>GaimControl</span>
+      </a>
+      <div class="nav__links">
+        <a href="#stack">The stack</a>
+        <a href="#lenders">For lenders</a>
+        <a href="#investors">Investors</a>
+        <a href="#about">About</a>
+        <a class="nav__cta" href="mailto:hello@gaimcontrol.com">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── Hero ─────────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <span class="kicker">GaimControl · AI agentic infrastructure</span>
+            <h1 class="h1 hero__title">
+              AI agents that turn recovery into an <span class="accent">underwritable signal.</span>
+            </h1>
+            <p class="hero__sub">
+              Financial institutions can detect harmful behaviour. GaimControl is the agentic layer that verifies recovery and operationalises the customer journey back to eligibility.
+            </p>
+            <div class="hero__cta-row">
+              <a class="btn btn--primary" href="#stack">
+                See the stack
+                <svg class="btn__arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn--ghost" href="#lenders">For lenders + investors</a>
+            </div>
+            <p class="hero__cta-note">TestFlight-ready beta · FCA-permissioned launch scheduled Q3 2026.</p>
+          </div>
+
+          <!-- Recovery Evidence Pack visual -->
+          <aside class="evi" aria-hidden="true">
+            <div class="evi__head">
+              <span class="evi__label">Recovery Evidence Pack</span>
+              <span class="evi__badge">Verified</span>
+            </div>
+            <div class="evi__title">Applicant #HW-4821</div>
+            <div class="evi__hr"></div>
+
+            <div class="evi__row">
+              <span class="l">Gambling-free days</span>
+              <div class="evi__bar"><span style="width: 82%"></span></div>
+              <span class="v">84</span>
+            </div>
+            <div class="evi__row">
+              <span class="l">CBT session adherence</span>
+              <div class="evi__bar"><span style="width: 91%"></span></div>
+              <span class="v">91%</span>
+            </div>
+            <div class="evi__row" style="grid-template-columns: 1fr auto;">
+              <span class="l">Sponsor co-sign active</span>
+              <span class="evi__toggle" aria-hidden="true"></span>
+            </div>
+            <div class="evi__row" style="grid-template-columns: 1fr auto;">
+              <span class="l">Relapse-risk score</span>
+              <span class="evi__pill--low">Low</span>
+            </div>
+            <div class="evi__row">
+              <span class="l">Affordability (90d)</span>
+              <svg class="evi__spark" viewBox="0 0 180 26" preserveAspectRatio="none">
+                <polyline points="0,20 20,18 40,16 60,14 80,11 100,9 120,7 140,5 160,4 180,2" fill="none" stroke="var(--teal-0)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="0,20 20,18 40,16 60,14 80,11 100,9 120,7 140,5 160,4 180,2 180,26 0,26" fill="rgba(91,176,136,0.10)" stroke="none"/>
+              </svg>
+            </div>
+
+            <div class="evi__outcome">
+              <div class="evi__outcome-label">Recommended outcome</div>
+              <div class="evi__outcome-value">Supported approval · Tier 2</div>
+              <div class="evi__outcome-sub">Consumer Duty vulnerability treatment applied.</div>
+            </div>
+
+            <div class="evi__foot">Signed · GaimControl attestation · timestamped</div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── What we're building ──────────────────────────────── -->
+    <section class="section section--bg" id="stack">
+      <div class="container">
+        <div class="section__head">
+          <span class="kicker">What we're building</span>
+          <h2 class="h2">One vertically integrated AI stack turns recovery into a credit signal.</h2>
+          <p class="lede">Three product surfaces, one data model. Each layer earns the next, and the whole stack produces evidence a lender can defend.</p>
+        </div>
+
+        <div class="stack">
+          <article class="stack__card stack__card--walkaway">
+            <span class="stack__ic">
+              <svg viewBox="0 0 24 24"><path d="M4 18l6-12 6 6 4-4"/><circle cx="20" cy="8" r="1.6"/></svg>
+            </span>
+            <span class="stack__label">AI Agent</span>
+            <h3 class="stack__title">Walkaway</h3>
+            <p class="stack__promise">Acquire &amp; prove commitment</p>
+            <p class="stack__body">
+              Autonomous agent that coordinates self-exclusion across the UK's regulated schemes in about ninety seconds. One request, every channel, signed evidence pack.
+            </p>
+            <a class="stack__link" href="https://walkaway.gaimcontrol.com">
+              Try the walkaway prototype
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="stack__card stack__card--anna">
+            <span class="stack__ic">
+              <svg viewBox="0 0 24 24"><path d="M9 3a5 5 0 0 0-5 5v3a4 4 0 0 0 3 3.87V19a2 2 0 0 0 2 2h1"/><path d="M15 3a5 5 0 0 1 5 5v3a4 4 0 0 1-3 3.87V19a2 2 0 0 1-2 2h-1"/></svg>
+            </span>
+            <span class="stack__label">AI Therapy</span>
+            <h3 class="stack__title">Anna</h3>
+            <p class="stack__promise">Change the behaviour</p>
+            <p class="stack__body">
+              AI-delivered CBT, mood + urge tracking, brain-training cadence, and safeguarding. Engagement that outperforms digital mental-health benchmarks by an order of magnitude.
+            </p>
+            <a class="stack__link" href="#stack">
+              Read the approach
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+
+          <article class="stack__card stack__card--holdwell">
+            <span class="stack__ic">
+              <svg viewBox="0 0 24 24"><path d="M3 10l9-6 9 6"/><path d="M5 10v9M12 10v9M19 10v9"/><path d="M3 20h18"/></svg>
+            </span>
+            <span class="stack__label">AI-native bank</span>
+            <h3 class="stack__title">Holdwell</h3>
+            <p class="stack__promise">Verify, underwrite &amp; settle</p>
+            <p class="stack__body">
+              Regulated banking stack that turns behaviour change into a verified credit outcome. Merchant-level controls, sponsor co-sign, direct-creditor settlement, and the audit trail lenders need.
+            </p>
+            <a class="stack__link" href="https://holdwell.money">
+              Go to holdwell.money
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Output signal band ───────────────────────────────── -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="signal">
+          <span class="signal__ic">
+            <svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.66 3.58 3 8 3s8-1.34 8-3V6"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg>
+          </span>
+          <div>
+            <span class="kicker">The output</span>
+            <h3 class="signal__title">A proprietary, verified dataset linking behaviour change to credit performance.</h3>
+            <p class="signal__sub">
+              The asset no bank or bureau can build, because they don't own the intervention.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── How the stack works ──────────────────────────────── -->
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section__head">
+          <span class="kicker">How the stack works</span>
+          <h2 class="h2">One user journey. Four data layers. Three product surfaces.</h2>
+          <p class="lede">The stack meets the user at the moment of commitment, guides them through recovery, and hands lenders the evidence at the moment of decision.</p>
+        </div>
+
+        <div class="journey">
+          <div class="journey__step">
+            <span class="journey__dot">01</span>
+            <span class="journey__label">Walkaway</span>
+            <h4 class="journey__title">Self-exclude</h4>
+            <p class="journey__body">One-request agent coordinates exclusion across every UK self-exclusion scheme in ninety seconds.</p>
+          </div>
+          <div class="journey__step">
+            <span class="journey__dot">02</span>
+            <span class="journey__label">Anna</span>
+            <h4 class="journey__title">Recover</h4>
+            <p class="journey__body">Daily CBT sessions, brain-training curriculum, sponsor check-ins, and safeguarding surfaces.</p>
+          </div>
+          <div class="journey__step">
+            <span class="journey__dot">03</span>
+            <span class="journey__label">Holdwell</span>
+            <h4 class="journey__title">Bank &amp; monitor</h4>
+            <p class="journey__body">Regulated account, merchant-level blocks, sponsor co-sign, transaction watch, direct-creditor settlement.</p>
+          </div>
+          <div class="journey__step">
+            <span class="journey__dot">04</span>
+            <span class="journey__label">Lender API</span>
+            <h4 class="journey__title">Underwrite</h4>
+            <p class="journey__body">Structured Recovery Evidence Pack delivered into the lender's credit workflow at decision time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── For lenders ──────────────────────────────────────── -->
+    <section class="section section--bg" id="lenders">
+      <div class="container">
+        <div class="section__head">
+          <span class="kicker">For lenders &amp; credit workflows</span>
+          <h2 class="h2">Underwrite recovery, not just risk.</h2>
+          <p class="lede">Structured, auditable signals delivered into your existing credit workflow. The evidence your credit and risk teams can defend at review.</p>
+        </div>
+
+        <div class="lenders">
+          <article class="lender">
+            <span class="lender__ic">
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 14h6M9 18h6M9 10h1"/></svg>
+            </span>
+            <h3 class="lender__h">Recovery Evidence Pack</h3>
+            <p class="lender__b">Affordability + vulnerability summary, recommended safeguards, relapse-risk flags, all signed and timestamped.</p>
+          </article>
+          <article class="lender">
+            <span class="lender__ic">
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+            </span>
+            <h3 class="lender__h">Consumer Duty ready</h3>
+            <p class="lender__b">Human-readable rationale and audit trail your credit and risk teams can defend at FCA review.</p>
+          </article>
+          <article class="lender">
+            <span class="lender__ic">
+              <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 4 4 5-6"/></svg>
+            </span>
+            <h3 class="lender__h">Signals you can't buy</h3>
+            <p class="lender__b">Gambling-free days, sponsor co-sign, cadence adherence, verified merchant exposure. First-party, not modelled.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Traction ────────────────────────────────────────── -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <span class="kicker">Where we are</span>
+          <h2 class="h2">Beta stack, contracts closing, ready for real users.</h2>
+          <p class="lede">Every third-party integration wired end-to-end. What's left before launch is contractual and regulatory, not engineering.</p>
+        </div>
+        <div class="traction">
+          <article class="stat">
+            <span class="stat__n">6.5M</span>
+            <p class="stat__l">UK adults affected by gambling harm.</p>
+            <span class="stat__src">Gambling Survey for GB</span>
+          </article>
+          <article class="stat">
+            <span class="stat__n">2,652</span>
+            <p class="stat__l">Regulated UK gambling channels coordinated by Walkaway.</p>
+            <span class="stat__src">Gambling Commission register</span>
+          </article>
+          <article class="stat">
+            <span class="stat__n">8+</span>
+            <p class="stat__l">Regulated third-party integrations wired live in beta.</p>
+            <span class="stat__src">Griffin · Stripe · Plaid · Vouchsafe · Experian · Cognifit · Azure · Bedrock</span>
+          </article>
+          <article class="stat">
+            <span class="stat__n">Q3 '26</span>
+            <p class="stat__l">Targeted FCA-permissioned public launch. TestFlight-ready today.</p>
+            <span class="stat__src">Beta build complete</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Investor CTA ─────────────────────────────────────── -->
+    <section class="closer" id="investors">
+      <div class="container">
+        <div class="closer__row">
+          <div>
+            <span class="kicker">For investors</span>
+            <h2 class="h2" style="margin-top: 16px;">Building the underwriting layer for recovery.</h2>
+            <p class="lede" style="margin-top: 20px;">
+              Currently raising. If you invest in AI infrastructure, UK fintech, or the vulnerable-consumer credit stack, we'd like to hear from you.
+            </p>
+          </div>
+          <div class="closer__ctas">
+            <a class="btn btn--primary" href="mailto:hello@gaimcontrol.com?subject=Investor%20deck%20request">
+              Request the deck
+              <svg class="btn__arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="mailto:hello@gaimcontrol.com?subject=Founder%20conversation">Talk to the founders</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Footer ───────────────────────────────────────────── -->
+    <footer>
+      <div class="container">
+        <div class="footer__row">
+          <div>
+            <div class="footer__brand">
+              <span class="nav__mark" aria-hidden="true"><img src="assets/logo-mark.svg" alt="" /></span>
+              <div>
+                GaimControl Ltd
+                <div class="footer__brand-sub">Operating Holdwell (holdwell.money), Anna, and Walkaway.</div>
+              </div>
+            </div>
+          </div>
+          <nav class="footer__nav">
+            <a href="https://walkaway.gaimcontrol.com">Walkaway</a>
+            <a href="https://holdwell.money">Holdwell</a>
+            <a href="#lenders">For lenders</a>
+            <a href="#investors">Investors</a>
+            <a href="mailto:hello@gaimcontrol.com">Contact</a>
+          </nav>
+        </div>
+        <p class="footer__disclaimer">
+          <b>GaimControl Ltd</b> is an independent operator of the Holdwell (holdwell.money), Anna, and Walkaway services. Walkaway is not affiliated with, endorsed by, or operated by GamStop, SENSE, BACTA, the Gambling Commission, or any gambling operator. Holdwell banking services are provided under FCA agency-principal arrangements with our regulated banking-as-a-service partner. Any credit decisioning is subject to the lender's own affordability and vulnerability assessments; GaimControl provides evidence, not underwriting.
+        </p>
+        <div class="footer__legal">
+          <span>© 2026 GaimControl Ltd, registered in England &amp; Wales.</span>
+          <span>Privacy · Terms · Responsible disclosure</span>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+</body>
+</html>
